@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://use.fontawesome.com/e59c7850d6.js"></script>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/animate.css">
+
+
+    <style>
+
+
+
+        html{
+            text-rendering: optimizeLegibility !important;
+
+            -webkit-font-smoothing: antialiased !important;
+
+            overflow-x: hidden;
+        }
+
+        body {
+            background-image: url("assets/robo17.jpg");
+            background-size: cover;
+        }
+
+        span{
+            margin-right: 10px;
+        }
+
+        p{
+            margin: 5px;
+        }
+
+        i {
+            border: 2px solid #fff;
+            border-radius: 100px;
+            background-color: transparent;
+            transition: background-color 0.2s ease-out,
+            color 0.2s ease-out;
+        }
+
+        i:hover,
+        i:active {
+
+            color: #000;
+            border: 2px solid #000;
+            transition: background-color 0.3s ease-in,
+            color 0.3s ease-in, border 0.3s ease-in;
+        }
+
+        @font-face {
+            font-family: Aileron-Thin;
+            src: url('assets/Aileron-Thin.otf');
+        }
+
+        h1 {
+            font-family: Aileron-Thin, sans-serif;
+            font-size: 72px;
+            margin: 10px;
+
+        }
+
+        .container {
+            text-align: center;
+            color: white;
+            margin: 0;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .subcontainer {
+            top: 45%;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            margin: 10px;
+
+        }
+
+        .right-button{
+            position: absolute;
+            /*margin: 0;*/
+            /*margin-right: -50%;*/
+            top:50%;
+            right: 10px;
+            text-align: right;
+            color: white;
+            transform: translate(-50%, -50%);
+        }
+
+        a {
+            color: inherit;
+        }
+
+        #wrap {
+            min-height:100%;
+            width:200%;
+            /*background-image: url("robo17.jpg");*/
+            /*background-size: cover;*/
+            overflow:hidden;
+        }
+
+        #page1{
+            /*background-image: url("robo17.jpg");*/
+            /*background-size: cover;*/
+            /*background: red;*/
+            overflow:hidden;
+        }
+
+        #page2{
+            position: relative;
+            left: 50%;
+            right: 0;
+            background: green;
+            overflow:hidden;
+        }
+
+
+        #one, #two {
+            width:50%;
+            float:left;
+        }
+
+
+
+
+    </style>
+    <title>Title</title>
+</head>
+<body>
+
+<div id="wrap">
+    <div id="page1">
+        <div id="home" class="smooth">
+            <div class="right-button">
+
+                <a href="#about">
+            <span class="fa fa-arrow-right animated flash infinite" style="animation-duration: 10s; right: 0;">
+            </span>
+                </a>
+            </div>
+
+
+            <div class="container">
+                <h1>Alessio Symons</h1>
+
+
+
+                <div class="subcontainer">
+                    <p>Developer. STEM Enthusiast. FIRST Alumni. Dog Lover.</p>
+
+
+                    <br>
+                    <!--<span class="fa-stack fa-lg">-->
+                    <!--<i class="fa fa-circle-thin fa-stack-2x"></i>-->
+                    <!--<i class="fa fa-twitter fa-stack-1x"></i>-->
+                    <!--</span>-->
+
+
+
+                    <span class="fa-stack fa-lg">
+            <!--<i class="fa fa-circle-thin fa-stack-2x"></i>-->
+            <i class="fa fa-mobile fa-stack-1x"></i>
+        </span>
+
+                    <span class="fa-stack fa-lg">
+            <!--<i class="fa fa-circle-thin fa-stack-2x"></i>-->
+            <i class="fa fa-file-pdf-o fa-stack-1x"></i>
+        </span>
+
+                    <span class="fa-stack fa-lg">
+            <!--<i class="fa fa-circle-thin fa-stack-2x"></i>-->
+            <i class="fa fa-envelope-o fa-stack-1x"></i>
+        </span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="page2">
+        <div id="about" class="smooth">
+            <p style="color: white;"> meme </p>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+<script>
+    $('.smooth').on('click', function() {
+        $.smoothScroll({
+            scrollElement: $('body'),
+            scrollTarget: '#' + this.id
+        });
+
+        return false;
+    });
+</script>
+
+</body>
+</html>
