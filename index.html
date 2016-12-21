@@ -17,6 +17,7 @@
             -webkit-font-smoothing: antialiased !important;
 
             overflow-x: hidden;
+            overflow-y: hidden;
         }
 
         body {
@@ -90,12 +91,23 @@
             transform: translate(-50%, -50%);
         }
 
+        .left-button{
+            position: absolute;
+            /*margin: 0;*/
+            /*margin-right: -50%;*/
+            top: 50%;
+            left: 30px;
+            text-align: left;
+            color: white;
+            transform: translate(-50%, -50%);
+        }
+
         a {
             color: inherit;
         }
 
         #wrap {
-            min-height:100%;
+            height:100%;
             width:200%;
             /*background-image: url("robo17.jpg");*/
             /*background-size: cover;*/
@@ -110,11 +122,13 @@
         }
 
         #page2{
-            position: relative;
+            height:100vh;
+            width:300vh;
+            position:relative;
+            top:0;
             left: 50%;
-            right: 0;
-            background: green;
-            overflow:hidden;
+            background: black;
+            /*overflow:hidden;*/
         }
 
 
@@ -181,10 +195,25 @@
     </div>
 
 
+
+
     <div id="page2">
-        <div id="about" class="smooth">
-            <p style="color: white;"> meme </p>
+
+
+        <div id="about">
+
+            <p style="color:white; margin: 0;">Under Construction...<span class="animated flash infinite" style="animation-duration: 1s">|
+            </span></p>
+            <div class="left-button">
+                <a href="#">
+                    <span class="fa fa-arrow-left animated flash infinite" style="animation-duration: 10s;">
+                    </span>
+                </a>
+            </div>
+            <!--<p style="color: white;"> meme </p>-->
         </div>
+
+
     </div>
 </div>
 
