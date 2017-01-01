@@ -20,6 +20,7 @@
             overflow-y: hidden;
         }
 
+
         body {
             background-image: url("assets/robo17.jpg");
             background-size: cover;
@@ -71,6 +72,12 @@
             left: 50%;
             margin-right: -50%;
             transform: translate(-50%, -50%);
+        }
+
+        .profile-pic {
+            height: 10%;
+            width: 10%;
+            border-radius: 50%;
         }
 
         .subcontainer {
@@ -141,55 +148,40 @@
 
 
     </style>
-    <title>Title</title>
+    <title>Alessio Symons</title>
 </head>
 <body>
 
 <div id="wrap">
     <div id="page1">
-        <div id="home" class="smooth">
-            <div class="right-button">
+        <div id="home">
 
-                <a href="#about">
-            <span class="fa fa-arrow-right animated flash infinite" style="animation-duration: 10s; right: 0;">
-            </span>
-                </a>
-            </div>
 
 
             <div class="container">
-                <h1>Alessio Symons</h1>
 
-
-
+                <img class="profile-pic" src="assets/profile-pic.jpg">
+                <h1 class="animated bounceInDown" style="animation-duration: 1s;">Alessio Symons</h1>
                 <div class="subcontainer">
-                    <p>Developer. STEM Enthusiast. FIRST Alumni. Dog Lover.</p>
-
-
+                    <p class="animated bounceInDown" style="animation-duration: 3s;">Developer. STEM Enthusiast. FIRST Alumni. Dog Lover.</p>
                     <br>
-                    <!--<span class="fa-stack fa-lg">-->
-                    <!--<i class="fa fa-circle-thin fa-stack-2x"></i>-->
-                    <!--<i class="fa fa-twitter fa-stack-1x"></i>-->
-                    <!--</span>-->
-
-
-
-                    <span class="fa-stack fa-lg">
-            <!--<i class="fa fa-circle-thin fa-stack-2x"></i>-->
-            <i class="fa fa-mobile fa-stack-1x"></i>
-        </span>
-
-                    <span class="fa-stack fa-lg">
-            <!--<i class="fa fa-circle-thin fa-stack-2x"></i>-->
-            <i class="fa fa-file-pdf-o fa-stack-1x"></i>
-        </span>
-
-                    <span class="fa-stack fa-lg">
-            <!--<i class="fa fa-circle-thin fa-stack-2x"></i>-->
-            <i class="fa fa-envelope-o fa-stack-1x"></i>
-        </span>
-
+                    <div class="animated bounceInLeft" style="animation-duration: 4s;">
+                        <abbr title="Github"><a href="https://github.com/Asymons" target="_blank"> <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span></a></abbr>
+                        <abbr title="Resume"><a href="http://bit.do/asymons-resume" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-file-pdf-o fa-stack-1x"></i></span></a></abbr>
+                        <abbr title="Email"><a href="mailto:alessiosymons@gmail.com" target="_blank" ><span class="fa-stack fa-lg"><i class="fa fa-envelope-o fa-stack-1x"></i></span></a></abbr>
+                    </div>
                 </div>
+            </div>
+
+
+            <div class="right-button">
+
+                <a href="#about">
+                    <i class="fa fa-arrow-right" style="animation-duration: 10s; right: 0; font-size: 18px; border-radius: 0; border: 0;">
+                        <!--animated flash infinite,
+                        -->
+                    </i>
+                </a>
             </div>
         </div>
     </div>
@@ -205,7 +197,7 @@
             <p style="color:white; margin: 0;">Under Construction...<span class="animated flash infinite" style="animation-duration: 1s">|
             </span></p>
             <div class="left-button">
-                <a href="#">
+                <a href="#home">
                     <span class="fa fa-arrow-left animated flash infinite" style="animation-duration: 10s;">
                     </span>
                 </a>
@@ -219,16 +211,36 @@
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script>
-    $('.smooth').on('click', function() {
-        $.smoothScroll({
-            scrollElement: $('body'),
-            scrollTarget: '#' + this.id
+    $(function() {
+        $('.right-button a').bind('click',function(event){
+            var $anchor = $(this);
+            /*
+             if you want to use one of the easing effects:
+             $('html, body').stop().animate({
+             scrollLeft: $($anchor.attr('href')).offset().left
+             }, 1500,'easeInOutExpo');
+             */
+            $('html, body').stop().animate({
+                scrollLeft: $($anchor.attr('href')).offset().left
+            }, 1000);
+            event.preventDefault();
         });
 
-        return false;
+        $('.left-button a').bind('click',function(event){
+            var $anchor = $(this);
+            /*
+             if you want to use one of the easing effects:
+             $('html, body').stop().animate({
+             scrollLeft: $($anchor.attr('href')).offset().left
+             }, 1500,'easeInOutExpo');
+             */
+            $('html, body').stop().animate({
+                scrollLeft: $($anchor.attr('href')).offset().left
+            }, 1000);
+            event.preventDefault();
+        });
     });
 </script>
 
