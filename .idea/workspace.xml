@@ -2,67 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c682f198-0078-48d7-9581-6e7d8a40f304" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/AgendaLightCondensed.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Aileron-Thin.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Alessio-Resume.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/IMG_5952.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/hint.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/IMG_5952.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/adas.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/carpool-front.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/dont-look.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/facetrack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/gesture-recognition.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/lol-ping-checker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/pi-pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/profile-pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/robo17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/rscode-front.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/screen-reader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/profile-pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/robo17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/horizontal-scroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNAME" afterPath="" />
     </list>
     <ignored path="asymons.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
