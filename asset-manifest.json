@@ -1,12 +1,12 @@
 {
-  "main.js": "static/js/main.09be8a7f.js",
-  "main.js.map": "static/js/main.09be8a7f.js.map",
-  "static\\media\\App.scss": "static/media/App.13f5d466.scss",
-  "static\\media\\BookCard.scss": "static/media/BookCard.67b5b9f1.scss",
-  "static\\media\\BookItem.scss": "static/media/BookItem.aa1244e5.scss",
-  "static\\media\\LinksBanner.scss": "static/media/LinksBanner.508c6ecc.scss",
-  "static\\media\\PersonalCard.scss": "static/media/PersonalCard.79e0b7dc.scss",
-  "static\\media\\ProjectItem.scss": "static/media/ProjectItem.550c9938.scss",
-  "static\\media\\ProjectsCard.scss": "static/media/ProjectsCard.dffeaa2e.scss",
-  "static\\media\\index.scss": "static/media/index.24d6bb87.scss"
+  "main.js": "static/js/main.67910ca6.js",
+  "main.js.map": "static/js/main.67910ca6.js.map",
+  "static/media/App.scss": "static/media/App.13f5d466.scss",
+  "static/media/BookCard.scss": "static/media/BookCard.40f8f9dd.scss",
+  "static/media/BookItem.scss": "static/media/BookItem.cf1a7df6.scss",
+  "static/media/LinksBanner.scss": "static/media/LinksBanner.72aa7555.scss",
+  "static/media/PersonalCard.scss": "static/media/PersonalCard.6aec8c12.scss",
+  "static/media/ProjectItem.scss": "static/media/ProjectItem.1cc20708.scss",
+  "static/media/ProjectsCard.scss": "static/media/ProjectsCard.a0b8f907.scss",
+  "static/media/index.scss": "static/media/index.24d6bb87.scss"
 }

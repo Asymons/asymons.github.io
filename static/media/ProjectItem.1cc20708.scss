@@ -1,0 +1,33 @@
+.project-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+
+  .project-image {
+    margin-right: 10px;
+    font-size: 24px;
+  }
+
+  .project-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    .project-title {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .project-desc {
+      width: 100%;
+      text-align: left;
+    }
+
+  }
+
+}

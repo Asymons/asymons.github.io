@@ -1,0 +1,10 @@
+@import '../mixins.scss';
+
+.books-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include card-style;
+
+}
