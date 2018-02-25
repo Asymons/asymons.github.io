@@ -1,0 +1,62 @@
+@import '../../mixins.scss';
+
+.expansion-card {
+  position: fixed;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: calc(100% - 96px);
+  height: calc(100% - 96px);
+  z-index: 3;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  overflow: auto;
+
+  font-family: 'Open Sans', sans-serif;
+
+  .expansion-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 20px 10px;
+
+    font-size: 24px;
+  }
+
+  .expansion-card-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 20px 10px;
+
+    font-size: 18px;
+  }
+
+  .expansion-card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0 20px 10px;
+  }
+
+  @include card-style;
+}
+
+@media screen and (max-width: 420px) {
+  .expansion-card {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 20px;
+  }
+}

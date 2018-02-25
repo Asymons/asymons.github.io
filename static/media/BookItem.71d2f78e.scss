@@ -1,0 +1,23 @@
+.book-item {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 20px 20px 0;
+
+  .book-cover {
+    height: 150px;
+    width: 100px;
+    padding: 0 5px;
+  }
+
+  .book-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 5px;
+  }
+}
+

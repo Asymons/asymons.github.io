@@ -1,5 +1,17 @@
 {
-  "main.js": "static/js/main.7c0a0168.js",
-  "main.js.map": "static/js/main.7c0a0168.js.map",
-  "static\\media\\playstation-pattern.png": "static/media/playstation-pattern.d3b06dda.png"
+  "main.js": "static/js/main.cff72ce7.js",
+  "main.js.map": "static/js/main.cff72ce7.js.map",
+  "static\\media\\App.scss": "static/media/App.91f3baac.scss",
+  "static\\media\\BookCard.scss": "static/media/BookCard.50708bd7.scss",
+  "static\\media\\BookItem.scss": "static/media/BookItem.71d2f78e.scss",
+  "static\\media\\CardsContainer.scss": "static/media/CardsContainer.e9569626.scss",
+  "static\\media\\ExpandButton.scss": "static/media/ExpandButton.99a5e87f.scss",
+  "static\\media\\ExpansionCard.scss": "static/media/ExpansionCard.28d66610.scss",
+  "static\\media\\LinksBanner.scss": "static/media/LinksBanner.508c6ecc.scss",
+  "static\\media\\Overlay.scss": "static/media/Overlay.dfe8980e.scss",
+  "static\\media\\PersonalCard.scss": "static/media/PersonalCard.21f136b9.scss",
+  "static\\media\\ProjectItem.scss": "static/media/ProjectItem.550c9938.scss",
+  "static\\media\\ProjectsCard.scss": "static/media/ProjectsCard.49b6748a.scss",
+  "static\\media\\SearchBar.scss": "static/media/SearchBar.2a51d096.scss",
+  "static\\media\\index.scss": "static/media/index.24d6bb87.scss"
 }
