@@ -2,6 +2,7 @@ import * as React from 'react';
 import PersonalCard from '../PersonalCard/PersonalCard';
 import BooksCard from '../BooksCard/BooksCard';
 import ProjectsCard from '../ProjectsCard/ProjectsCard';
+import './CardsContainer.scss';
 
 interface CardsContainerState {
     // TODO implement better solution for state management

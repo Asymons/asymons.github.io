@@ -6,6 +6,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Open Sans', sans-serif;
+
   @include card-style;
 
   .personal-card-left-elements {
