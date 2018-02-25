@@ -2,6 +2,14 @@ import * as React from 'react';
 import './ProjectsCard.scss';
 import ProjectItem, { ProjectItemProps } from './ProjectItem/ProjectItem';
 import { MdDirectionsCar, MdVideogameAsset, MdLens } from 'react-icons/lib/md';
+import ExpansionCard from '../General/ExpansionCard/ExpansionCard';
+import ExpandButton from '../General/ExpandButton/ExpandButton';
+
+interface ProjectsCardProps {
+    expanded: boolean;
+
+    toggleExpand: () => void;
+}
 
 const projects: ProjectItemProps[] = [
     {
@@ -23,18 +31,32 @@ const projects: ProjectItemProps[] = [
     },
 ];
 
-class ProjectsCard extends React.Component {
+const moreProjects = [
+    ...projects,
+];
+
+class ProjectsCard extends React.Component<ProjectsCardProps> {
 
     render() {
         return (
             <div className="projects-card">
+                <ExpandButton toggleExpand={this.props.toggleExpand}/>
                 {
+                    this.props.expanded ?
+                        <ExpansionCard
+                            title="Projects"
+                            desc="Some projects I've made and short descriptions"
+                            listOfProps={moreProjects}
+                            Component={ProjectItem}
+                            toggleExpanded={this.props.toggleExpand}
+                        />
+                        :
                     projects.map((projectItem: ProjectItemProps, key: number) => {
                         return (
                         <ProjectItem {...projectItem} key={key}/>
                             );
                         })
-                    }
+                }
             </div>
         );
     }

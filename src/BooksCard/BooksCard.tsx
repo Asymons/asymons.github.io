@@ -2,6 +2,7 @@ import * as React from 'react';
 import BookItem, { BookItemProps } from './BookItem/BookItem';
 import ExpansionCard from '../General/ExpansionCard/ExpansionCard';
 import './BookCard.scss';
+import ExpandButton from '../General/ExpandButton/ExpandButton';
 
 interface BooksCardProps {
     expanded: boolean;
@@ -81,9 +82,7 @@ class BooksCard extends React.Component<BooksCardProps> {
     render() {
         return (
             <div className="books-card">
-                <div className="expand-button" onClick={this.props.toggleExpand}>
-                    See More
-                </div>
+                <ExpandButton toggleExpand={this.props.toggleExpand}/>
                 {
                     this.props.expanded ?
                     <ExpansionCard
