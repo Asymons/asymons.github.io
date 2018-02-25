@@ -2,6 +2,7 @@ import * as React from 'react';
 import SearchBar from '../SearchBar/SearchBar';
 import { MdClose } from 'react-icons/lib/md';
 import './ExpansionCard.scss';
+import Overlay from '../Overlay/Overlay';
 
 // list should be defined as props for component... is this a trap?
 
@@ -50,20 +51,23 @@ class ExpansionCard extends React.Component<ExpansionCardProps, ExpansionCardSta
 
     render() {
         return (
-            <div className="expansion-card">
-                <div className="expansion-card-header">
-                    {this.props.title}
-                    <div className="close-button" onClick={this.props.toggleExpanded}>
-                        <MdClose/>
+            <div className="expansion-card-container">
+                <Overlay dismissOverlay={this.props.toggleExpanded}/>
+                <div className="expansion-card">
+                    <div className="expansion-card-header">
+                        {this.props.title}
+                        <div className="close-button" onClick={this.props.toggleExpanded}>
+                            <MdClose/>
+                        </div>
                     </div>
-                </div>
 
-                <div className="expansion-card-sub">
-                    {this.props.desc}
-                    <SearchBar onChange={this._searchFilter}/>
-                </div>
-                <div className="expansion-card-content">
-                    {this.state.list}
+                    <div className="expansion-card-sub">
+                        {this.props.desc}
+                        <SearchBar onChange={this._searchFilter}/>
+                    </div>
+                    <div className="expansion-card-content">
+                        {this.state.list}
+                    </div>
                 </div>
             </div>
         );

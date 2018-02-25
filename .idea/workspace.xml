@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7efd5b4-8d7b-44e8-a014-8ef8ffe47689" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/General/ExpandButton/ExpandButton.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/General/ExpandButton/ExpandButton.tsx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/General/Overlay/Overlay.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/General/Overlay/Overlay.tsx" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" afterPath="$PROJECT_DIR$/src/App.scss" />
-      <change beforePath="$PROJECT_DIR$/src/BooksCard/BookCard.scss" afterPath="$PROJECT_DIR$/src/BooksCard/BookCard.scss" />
-      <change beforePath="$PROJECT_DIR$/src/BooksCard/BooksCard.tsx" afterPath="$PROJECT_DIR$/src/BooksCard/BooksCard.tsx" />
-      <change beforePath="$PROJECT_DIR$/src/CardsContainer/CardsContainer.scss" afterPath="$PROJECT_DIR$/src/CardsContainer/CardsContainer.scss" />
-      <change beforePath="$PROJECT_DIR$/src/CardsContainer/CardsContainer.tsx" afterPath="$PROJECT_DIR$/src/CardsContainer/CardsContainer.tsx" />
       <change beforePath="$PROJECT_DIR$/src/General/ExpansionCard/ExpansionCard.scss" afterPath="$PROJECT_DIR$/src/General/ExpansionCard/ExpansionCard.scss" />
-      <change beforePath="$PROJECT_DIR$/src/PersonalCard/PersonalCard.scss" afterPath="$PROJECT_DIR$/src/PersonalCard/PersonalCard.scss" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsCard/ProjectsCard.scss" afterPath="$PROJECT_DIR$/src/ProjectsCard/ProjectsCard.scss" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsCard/ProjectsCard.tsx" afterPath="$PROJECT_DIR$/src/ProjectsCard/ProjectsCard.tsx" />
+      <change beforePath="$PROJECT_DIR$/src/General/ExpansionCard/ExpansionCard.tsx" afterPath="$PROJECT_DIR$/src/General/ExpansionCard/ExpansionCard.tsx" />
     </list>
     <ignored path="asymons-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ExpansionCard.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/General/ExpansionCard/ExpansionCard.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="53" column="54" lean-forward="true" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ProjectsCard.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProjectsCard/ProjectsCard.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -45,21 +50,9 @@
       <file leaf-file-name="ExpansionCard.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/General/ExpansionCard/ExpansionCard.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="768">
+              <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CardsContainer.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CardsContainer/CardsContainer.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -78,42 +71,40 @@
         <entry file="file://$PROJECT_DIR$/src/App.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookCard.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookCard.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BooksCard/BookCard.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectsCard.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProjectsCard/ProjectsCard.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="47" column="80" lean-forward="false" selection-start-line="47" selection-start-column="80" selection-end-line="47" selection-end-column="80" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExpandButton.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/General/ExpandButton/ExpandButton.tsx">
+      <file leaf-file-name="Overlay.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/General/Overlay/Overlay.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Overlay.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/General/Overlay/Overlay.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/BooksCard/BookItem/BookItem.tsx" />
         <option value="$PROJECT_DIR$/src/BooksCard/BookItem/RatingItem/RatingItem.tsx" />
         <option value="$PROJECT_DIR$/src/App.tsx" />
-        <option value="$PROJECT_DIR$/src/General/ExpansionCard/ExpansionCard.tsx" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/BooksCard/BookItem/BookItem.scss" />
         <option value="$PROJECT_DIR$/src/General/ExpandButton/ExpandButton.scss" />
@@ -185,12 +175,15 @@
         <option value="$PROJECT_DIR$/src/General/ExpandButton/ExpandButton.tsx" />
         <option value="$PROJECT_DIR$/src/CardsContainer/CardsContainer.tsx" />
         <option value="$PROJECT_DIR$/src/ProjectsCard/ProjectsCard.tsx" />
-        <option value="$PROJECT_DIR$/src/General/ExpansionCard/ExpansionCard.scss" />
         <option value="$PROJECT_DIR$/src/CardsContainer/CardsContainer.scss" />
         <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/PersonalCard/PersonalCard.scss" />
         <option value="$PROJECT_DIR$/src/ProjectsCard/ProjectsCard.scss" />
         <option value="$PROJECT_DIR$/src/BooksCard/BookCard.scss" />
+        <option value="$PROJECT_DIR$/src/General/Overlay/Overlay.tsx" />
+        <option value="$PROJECT_DIR$/src/General/ExpansionCard/ExpansionCard.tsx" />
+        <option value="$PROJECT_DIR$/src/General/ExpansionCard/ExpansionCard.scss" />
+        <option value="$PROJECT_DIR$/src/General/Overlay/Overlay.scss" />
       </list>
     </option>
   </component>
@@ -278,14 +271,14 @@
               <item name="asymons.github.io" type="cbb8eebc:String" user="asymons.github.io" />
               <item name="src" type="cbb8eebc:String" user="src" />
               <item name="General" type="cbb8eebc:String" user="General" />
-              <item name="ExpandButton" type="cbb8eebc:String" user="ExpandButton" />
+              <item name="ExpansionCard" type="cbb8eebc:String" user="ExpansionCard" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="asymons.github.io" type="cbb8eebc:String" user="asymons.github.io" />
               <item name="src" type="cbb8eebc:String" user="src" />
               <item name="General" type="cbb8eebc:String" user="General" />
-              <item name="ExpansionCard" type="cbb8eebc:String" user="ExpansionCard" />
+              <item name="Overlay" type="cbb8eebc:String" user="Overlay" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
@@ -410,12 +403,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519071104343</updated>
-      <workItem from="1519580899411" duration="5293000" />
+      <workItem from="1519580899411" duration="5964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5293000" />
+    <option name="totallyTimeSpent" value="5964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
@@ -493,7 +486,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="false" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -511,7 +504,7 @@
         <state relative-caret-position="306">
           <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -537,7 +530,7 @@
         <state relative-caret-position="289">
           <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -547,7 +540,7 @@
         <state relative-caret-position="646">
           <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -646,6 +639,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -653,6 +647,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -697,16 +692,6 @@
         <state relative-caret-position="34">
           <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/General/ExpansionCard/ExpansionCard.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,7 +742,7 @@
         <state relative-caret-position="595">
           <caret line="84" column="66" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -767,7 +752,7 @@
         <state relative-caret-position="493">
           <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -777,7 +762,7 @@
         <state relative-caret-position="513">
           <caret line="47" column="80" lean-forward="false" selection-start-line="47" selection-start-column="80" selection-end-line="47" selection-end-column="80" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -787,16 +772,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/General/ExpansionCard/ExpansionCard.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,7 +788,7 @@
     <entry file="file://$PROJECT_DIR$/src/App.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -820,14 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjectsCard/ProjectsCard.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -842,8 +811,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BooksCard/BookCard.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/General/Overlay/Overlay.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/General/ExpansionCard/ExpansionCard.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="53" column="54" lean-forward="true" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjectsCard/ProjectsCard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/General/ExpansionCard/ExpansionCard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/General/Overlay/Overlay.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding />
         </state>
       </provider>
