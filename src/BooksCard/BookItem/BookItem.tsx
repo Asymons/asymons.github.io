@@ -6,6 +6,7 @@ export interface BookItemProps {
     cover: string;
     title: string;
     rating: number;
+    url?: string;
 }
 
 class BookItem extends React.Component<BookItemProps> {
@@ -13,7 +14,14 @@ class BookItem extends React.Component<BookItemProps> {
     render() {
         return (
             <div className="book-item">
-                <img className="book-cover" src={this.props.cover} alt="Book Cover"/>
+                {
+                    this.props.url ?
+                    <a href={this.props.url} target="_blank">
+                        <img className="book-cover" src={this.props.cover} alt="Book Cover"/>
+                    </a>
+                        :
+                    <img className="book-cover" src={this.props.cover} alt="Book Cover"/>
+                    }
                 <div className="book-info-container">
                     <div className="book-title">
                         {this.props.title}
