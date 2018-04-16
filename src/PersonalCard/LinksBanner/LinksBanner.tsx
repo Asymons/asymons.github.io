@@ -30,7 +30,7 @@ const mediaLinks: MediaLink[] = [
         icon: <MdStars/>,
     },
     {
-        url: 'https://drive.google.com/open?id=1X7MHKExa65z45x9Q37DHQzypUSygxBSl',
+        url: 'https://drive.google.com/open?id=1KVQ-Ndyd1JMhJOyJr4ZPrtdHI8BYG0Cs',
         icon: <FaDownload/>,
     },
 
