@@ -3,8 +3,7 @@ import SearchBar from '../SearchBar/SearchBar';
 import { MdClose } from 'react-icons/lib/md';
 import './ExpansionCard.scss';
 import Overlay from '../Overlay/Overlay';
-
-// list should be defined as props for component... is this a trap?
+import { FlatButton } from 'material-ui';
 
 interface ExpansionCardProps {
     title: string;
@@ -56,11 +55,14 @@ class ExpansionCard extends React.Component<ExpansionCardProps, ExpansionCardSta
                 <div className="expansion-card">
                     <div className="expansion-card-header">
                         {this.props.title}
-                        <div className="close-button" onClick={this.props.toggleExpanded}>
+                        <FlatButton
+                            style={{minWidth: 0, minHeight: 0, lineHeight: 0, height: '100%'}}
+                            className="close-button"
+                            onClick={this.props.toggleExpanded}
+                        >
                             <MdClose/>
-                        </div>
+                        </FlatButton>
                     </div>
-
                     <div className="expansion-card-sub">
                         {this.props.desc}
                         <SearchBar onChange={this._searchFilter}/>

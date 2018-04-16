@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './ProjectsCard.scss';
 import ProjectItem, { ProjectItemProps } from './ProjectItem/ProjectItem';
-import { MdDirectionsCar, MdVideogameAsset, MdLens } from 'react-icons/lib/md';
+import { MdCloud, MdVideogameAsset, MdLens } from 'react-icons/lib/md';
 import ExpansionCard from '../General/ExpansionCard/ExpansionCard';
 import ExpandButton from '../General/ExpandButton/ExpandButton';
 
@@ -13,16 +13,15 @@ interface ProjectsCardProps {
 
 const projects: ProjectItemProps[] = [
     {
-        image: <MdDirectionsCar/>,
-        title: 'Filter My Drive',
-        desc: 'An app to filter unimportant incoming texts while driving ' +
-        'and speech to text important messages using machine learning.',
+        image: <MdCloud/>,
+        title: 'Interviewtracker.ca',
+        desc: 'A website to track the job application process and store recruiter information.',
     },
     {
         image: <MdVideogameAsset/>,
-        title: 'LOL Ping Checker',
-        desc: 'As manually pinging Riot Games\' servers gets annoying, ' +
-        'I developed a GUI to streamline the process for all users checking their terrible ping. ',
+        title: '1v1memid',
+        desc: 'An exploration into GraphQl. It\'s a website that pairs league of legends players together ' +
+        'for spontaneous 1v1s. ',
     },
     {
         image: <MdLens/>,

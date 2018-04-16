@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { MdSearch, MdClose } from 'react-icons/lib/md';
 import './SearchBar.scss';
+import { FlatButton, TextField } from 'material-ui';
 
 interface SearchBarProps {
     onChange: (textField: string) => void;
@@ -43,9 +44,10 @@ class SearchBar extends React.Component<SearchBarProps, SearchBarState> {
          <div className="search-bar">
              {
                 this.state.active ?
-                <input
-                    placeholder="Search here"
+                <TextField
+                    hintText="Search here"
                     className="input-field"
+                    style={{marginLeft: 5, marginRight: 5}}
                     type="text"
                     value={this.state.searchField}
                     onChange={this._updateSearchField}
@@ -53,11 +55,15 @@ class SearchBar extends React.Component<SearchBarProps, SearchBarState> {
                     :
                 null
              }
-                 <div className="search-bar-icon" onClick={this._toggleSearchBar}>
+                 <FlatButton
+                     style={{minWidth: 0, minHeight: 0, lineHeight: 0, height: '100%'}}
+                     className="search-bar-icon"
+                     onClick={this._toggleSearchBar}
+                 >
                      {
                          this.state.active ? <MdClose/> : <MdSearch/>
                      }
-                 </div>
+                 </FlatButton>
          </div>
      );
     }
