@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './App.scss';
-import CardsContainer from './CardsContainer/CardsContainer';
-import { MuiThemeProvider } from 'material-ui/styles';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import HomePage from './Pages/HomePage/HomePage';
 
 class App extends React.Component {
     render() {
@@ -9,7 +9,7 @@ class App extends React.Component {
             <div className="App">
                 <div className="content-container">
                     <MuiThemeProvider>
-                        <CardsContainer/>
+                        <HomePage/>
                     </MuiThemeProvider>
                 </div>
             </div>

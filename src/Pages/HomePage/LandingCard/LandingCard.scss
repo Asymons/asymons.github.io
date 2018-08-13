@@ -1,0 +1,33 @@
+.landing-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+
+  .title {
+    font-size: 52px;
+    margin: 20px;
+  }
+
+  .links {
+    font-size: 16px;
+
+    .link {
+      padding: 12px 20px;
+      margin: 12px 20px;
+      border: 2px solid white;
+      transition: 0.1s background-color linear, 0.1s color linear;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .link:hover {
+      background: white;
+      color: darken(white, 80%);
+    }
+  }
+
+}
