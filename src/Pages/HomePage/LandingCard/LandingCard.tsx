@@ -51,7 +51,7 @@ class LandingCard extends React.Component<any, LandingCardState> {
                     <div className="contact link" onClick={this.showSnackBar}>
                         {messages.contact}
                     </div>
-                    <a className="link" href="../assets/AlessioSymonsWebResume.pdf" download={true}>
+                    <a className="link" href="../assets/alessio-symons-backend-resume.pdf" download={true}>
                         <div className="resume">
                             {messages.resume}
                         </div>
