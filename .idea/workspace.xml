@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7efd5b4-8d7b-44e8-a014-8ef8ffe47689" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/alessio-symons-backend-resume.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/BaePage/BaePage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/BaePage/BaePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/all-i-want-for-christmas.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/bae-1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/bae-2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/bae-3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/bae-ellie.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/bae-orlando.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/grocerystore.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/AlessioSymonsWebResume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/HomePage/LandingCard/LandingCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage/LandingCard/LandingCard.tsx" afterDir="false" />
     </list>
     <ignored path="asymons-website.iws" />
@@ -51,13 +37,13 @@
       <file leaf-file-name="HomePage.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pages/HomePage/HomePage.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="25" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="136">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaePage.tsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaePage.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pages/BaePage/BaePage.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -69,11 +55,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LandingCard.tsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bae-ellie.PNG" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/bae-ellie.PNG">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="bae-3.PNG" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/bae-3.PNG">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="bae-2.PNG" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/bae-2.PNG">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="LandingCard.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pages/HomePage/LandingCard/LandingCard.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+            <state relative-caret-position="85">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -84,8 +85,8 @@
       <file leaf-file-name="BaePage.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pages/BaePage/BaePage.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="459">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -99,36 +100,9 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/manifest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="background.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/background.jpg">
           <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -202,9 +176,9 @@
         <option value="$PROJECT_DIR$/src/App.tsx" />
         <option value="$PROJECT_DIR$/src/Shared/SnowStorm.tsx" />
         <option value="$PROJECT_DIR$/src/Shared/snowstormsource.ts" />
-        <option value="$PROJECT_DIR$/src/Pages/HomePage/LandingCard/LandingCard.tsx" />
         <option value="$PROJECT_DIR$/src/Pages/BaePage/BaePage.scss" />
         <option value="$PROJECT_DIR$/src/Pages/BaePage/BaePage.tsx" />
+        <option value="$PROJECT_DIR$/src/Pages/HomePage/LandingCard/LandingCard.tsx" />
       </list>
     </option>
   </component>
@@ -223,9 +197,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1439" />
-    <option name="height" value="1038" />
+    <option name="x" value="-10" />
+    <option name="width" value="1638" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -271,13 +245,6 @@
               <item name="asymons.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="asymons.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asymons.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="BaePage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="asymons.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -342,18 +309,18 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\aless\git\asymons.github.io\src\assets" />
-      <recent name="C:\Users\aless\git\asymons.github.io\public\assets" />
-      <recent name="C:\Users\Root\WebstormProjects\asymons.github.io" />
-      <recent name="C:\Users\Root\WebstormProjects\asymons-website\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aless\git\asymons.github.io\src\assets" />
       <recent name="C:\Users\aless\git\asymons.github.io\public\assets" />
       <recent name="C:\Users\aless\git\asymons.github.io\public\img" />
       <recent name="C:\Users\Root\WebstormProjects\asymons.github.io\public" />
       <recent name="C:\Users\Root\WebstormProjects\asymons.github.io\src\CardsContainer\BooksCard" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aless\git\asymons.github.io\src\assets" />
+      <recent name="C:\Users\aless\git\asymons.github.io\public\assets" />
+      <recent name="C:\Users\Root\WebstormProjects\asymons.github.io" />
+      <recent name="C:\Users\Root\WebstormProjects\asymons-website\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -422,26 +389,28 @@
       <workItem from="1534221465523" duration="46000" />
       <workItem from="1544099473016" duration="4124000" />
       <workItem from="1544980171785" duration="3960000" />
+      <workItem from="1545707746171" duration="18000" />
+      <workItem from="1545707779350" duration="539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27420000" />
+    <option name="totallyTimeSpent" value="27977000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1151" height="830" extended-state="0" />
+    <frame x="-8" y="0" width="1310" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2962963" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33773088" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -452,6 +421,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -500,9 +470,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PersonalCard/LinksBanner/LinksBanner.scss" />
-    <entry file="file://$PROJECT_DIR$/src/BooksCard/BookItem/BookItem.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/BooksCard/BookItem/RatingItem/RatingItem.tsx" />
     <entry file="file://$PROJECT_DIR$/build/index.html" />
     <entry file="file://$PROJECT_DIR$/src/BooksCard/BookItem/BookItem.scss" />
     <entry file="file://$PROJECT_DIR$/src/BooksCard/BooksCard.tsx" />
@@ -636,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pages/HomePage/HomePage.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="25" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -655,20 +615,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Shared/SnowStorm.tsx" />
     <entry file="file://$PROJECT_DIR$/src/Shared/snowstormsource.ts" />
-    <entry file="file://$PROJECT_DIR$/src/Pages/HomePage/LandingCard/LandingCard.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pages/BaePage/BaePage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="459">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -676,6 +626,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/bae-ellie.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/bae-3.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/bae-2.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/HomePage/HomePage.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/HomePage/LandingCard/LandingCard.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

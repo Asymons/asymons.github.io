@@ -3,6 +3,8 @@ import Snackbar from 'material-ui/Snackbar';
 import * as copy from 'copy-to-clipboard';
 import './LandingCard.scss';
 
+const resumeLink = 'https://www.dl.dropboxusercontent.com/s/dammiz81kxdl9dn/Alessio_Symons_3A_Resume.pdf?dl=0';
+
 const snackBarProps = {
     autoHideDuration: 3000,
     email: 'alessiosymons@gmail.com',
@@ -51,7 +53,7 @@ class LandingCard extends React.Component<any, LandingCardState> {
                     <div className="contact link" onClick={this.showSnackBar}>
                         {messages.contact}
                     </div>
-                    <a className="link" href="../assets/alessio-symons-backend-resume.pdf" download={true}>
+                    <a className="link" href={resumeLink} download={true}>
                         <div className="resume">
                             {messages.resume}
                         </div>
