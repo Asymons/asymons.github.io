@@ -1,12 +1,30 @@
 {
-  "main.js": "static/js/main.c3b8585c.js",
-  "main.js.map": "static/js/main.c3b8585c.js.map",
-  "static\\media\\all-i-want-for-christmas.mp3": "static/media/all-i-want-for-christmas.048d15fe.mp3",
-  "static\\media\\background.jpg": "static/media/background.04318096.jpg",
-  "static\\media\\bae-1.PNG": "static/media/bae-1.534d729c.PNG",
-  "static\\media\\bae-2.PNG": "static/media/bae-2.9d4d3e31.PNG",
-  "static\\media\\bae-3.PNG": "static/media/bae-3.923ff093.PNG",
-  "static\\media\\bae-ellie.PNG": "static/media/bae-ellie.2015ed76.PNG",
-  "static\\media\\bae-orlando.PNG": "static/media/bae-orlando.e2b1e22d.PNG",
-  "static\\media\\playstation-pattern.png": "static/media/playstation-pattern.d3b06dda.png"
+  "files": {
+    "main.css": "/new-page/static/css/main.24814261.chunk.css",
+    "main.js": "/new-page/static/js/main.1a1071ec.chunk.js",
+    "main.js.map": "/new-page/static/js/main.1a1071ec.chunk.js.map",
+    "runtime-main.js": "/new-page/static/js/runtime-main.b0061a92.js",
+    "runtime-main.js.map": "/new-page/static/js/runtime-main.b0061a92.js.map",
+    "static/css/2.e4183198.chunk.css": "/new-page/static/css/2.e4183198.chunk.css",
+    "static/js/2.763d1730.chunk.js": "/new-page/static/js/2.763d1730.chunk.js",
+    "static/js/2.763d1730.chunk.js.map": "/new-page/static/js/2.763d1730.chunk.js.map",
+    "static/js/3.73ea03a8.chunk.js": "/new-page/static/js/3.73ea03a8.chunk.js",
+    "static/js/3.73ea03a8.chunk.js.map": "/new-page/static/js/3.73ea03a8.chunk.js.map",
+    "50364b3226dbfff5d24d9602dbed8140.js": "/new-page/50364b3226dbfff5d24d9602dbed8140.js",
+    "50364b3226dbfff5d24d9602dbed8140.js.LICENSE.txt": "/new-page/50364b3226dbfff5d24d9602dbed8140.js.LICENSE.txt",
+    "index.html": "/new-page/index.html",
+    "static/css/2.e4183198.chunk.css.map": "/new-page/static/css/2.e4183198.chunk.css.map",
+    "static/css/main.24814261.chunk.css.map": "/new-page/static/css/main.24814261.chunk.css.map",
+    "static/js/2.763d1730.chunk.js.LICENSE.txt": "/new-page/static/js/2.763d1730.chunk.js.LICENSE.txt",
+    "static/media/profile-pic-2021-09-26.9ad8211a.jpg": "/new-page/static/media/profile-pic-2021-09-26.9ad8211a.jpg",
+    "static/media/resume-2021-09-26.321d2f8b.pdf": "/new-page/static/media/resume-2021-09-26.321d2f8b.pdf",
+    "static/media/index.css": "/new-page/static/media/roboto-latin-900italic.cb5ad999.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0061a92.js",
+    "static/css/2.e4183198.chunk.css",
+    "static/js/2.763d1730.chunk.js",
+    "static/css/main.24814261.chunk.css",
+    "static/js/main.1a1071ec.chunk.js"
+  ]
 }
