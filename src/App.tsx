@@ -1,26 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import LandingPage from "./pages/LandingPage/LandingPage";
+import ResumePage from "./pages/ResumePage/ResumePage";
+import Header from "./components/Header";
+import ContactPage from "./pages/ContactPage/ContactPage";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+const App = () => {
+    // https://stackoverflow.com/questions/2756575/drawing-text-to-canvas-with-font-face-does-not-work-at-the-first-time
+
+    return (
+      <>
+        <Header/>
+        <LandingPage/>
+        <ResumePage/>
+        <ContactPage/>
+      </>
   );
-}
+};
+
+
 
 export default App;
